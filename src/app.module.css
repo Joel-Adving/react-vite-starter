@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  user-select: none;
+
+  animation: fade 5s ease-in-out infinite;
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  & > span {
+    color: #61dafb;
+  }
+}

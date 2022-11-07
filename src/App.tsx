@@ -1,10 +1,13 @@
-import Card from './components/card'
+import Card from '@/components/card'
+import style from './app.module.css'
 
 export default function App() {
   return (
-    <div>
+    <div className={style['container']}>
       <Card>
-        <h1>Hello World</h1>
+        <h1 className={style['title']}>
+          Joel's <span>react</span> template
+        </h1>
       </Card>
     </div>
   )

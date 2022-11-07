@@ -5,10 +5,5 @@ interface Props {
 }
 
 export default function Card({ children }: Props) {
-  return (
-    <div className={style['card']}>
-      {children}
-      <p className={style['card_title']}>Joel's react starter config</p>
-    </div>
-  )
+  return <div className={style['card']}>{children}</div>
 }
