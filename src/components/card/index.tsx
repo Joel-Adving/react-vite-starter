@@ -8,7 +8,7 @@ export default function Card({ children }: Props) {
   return (
     <div className={style['card']}>
       {children}
-      <p className={style['title']}>Joel's react starter config</p>
+      <p className={style['card_title']}>Joel's react starter config</p>
     </div>
   )
 }
