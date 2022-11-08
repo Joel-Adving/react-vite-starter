@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite'
-import path from 'path'
-import react from '@vitejs/plugin-react'
-import postcssNested from 'postcss-nested'
+/// <reference types="vite/client" />
+/// <reference types="vitest" />
+
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import postcssNested from 'postcss-nested';
+import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,5 +18,10 @@ export default defineConfig({
     postcss: {
       plugins: [postcssNested]
     }
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['./setupTests.ts']
   }
-})
+});
