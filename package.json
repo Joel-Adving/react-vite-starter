@@ -12,6 +12,12 @@
     "format": "prettier --write ./src/",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm lint && npm format",
+      "pre-push": "npm test"
+    }
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
