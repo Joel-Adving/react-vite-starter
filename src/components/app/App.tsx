@@ -6,7 +6,7 @@ export default function App() {
     <div className={styles['container']}>
       <Card>
         <h1 className={styles['title']}>
-          Joel&apos;s <span>react</span> template
+          Joel&apos;s <span>reac</span> template
         </h1>
       </Card>
     </div>
