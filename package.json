@@ -38,7 +38,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.0",
     "jsdom": "^20.0.2",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^12.5.0",
     "postcss-custom-media": "^8.0.2",
     "postcss-import": "^15.0.0",
     "postcss-nested": "^6.0.0",
