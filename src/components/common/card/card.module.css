@@ -1,15 +1,32 @@
+@import '@/styles/breakpoints.css';
+
 .card {
   display: flex;
   flex-direction: column;
   padding: 3rem 6rem;
-  margin: 2rem;
+  margin: var(--spacing-small);
   background-color: whitesmoke;
-  border-radius: var(--border-radius-lg);
-  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow-medium);
 
-  transition: box-shadow 0.1s ease-in-out;
+  transition: all 0.03s ease-out;
 
   &:hover {
-    box-shadow: var(--box-shadow-hover);
+    box-shadow: var(--box-shadow-large);
+    transform: scale(100.3%);
+  }
+  &:not(:hover) {
+    transition: transform 0.15s ease-out;
+    transition: box-shadow 0.15s ease-out;
+  }
+
+  &:active {
+    box-shadow: var(--box-shadow-small);
+    transform: scale(100%);
+    transition: all 0.07s ease-out;
+  }
+
+  @media (--breakpoint-small) {
+    padding: 2rem;
   }
 }

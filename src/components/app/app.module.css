@@ -1,3 +1,5 @@
+@import '@/styles/breakpoints.css';
+
 .container {
   width: 100%;
   display: grid;
@@ -6,9 +8,12 @@
 }
 
 .title {
-  font-size: var(--font-size-2xl);
   font-weight: 600;
   user-select: none;
+
+  & > span {
+    color: #61dafb;
+  }
 
   animation: fade 5s ease-in-out infinite;
 
@@ -22,9 +27,5 @@
     100% {
       opacity: 0;
     }
-  }
-
-  & > span {
-    color: #61dafb;
   }
 }

@@ -1,3 +1,11 @@
+:root {
+  --font-size-small: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+  --font-size-xl: 3rem;
+  --font-size-2xl: 4rem;
+}
+
 html {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: calc(15px + 0.390625vw);

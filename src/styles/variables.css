@@ -1,0 +1,15 @@
+:root {
+  /* Shadows */
+  --box-shadow-small: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  --box-shadow-medium: 0 2px 6px 1px rgba(0, 0, 0, 0.15);
+  --box-shadow-large: 0 3px 7px 1px rgba(0, 0, 0, 0.3);
+
+  /* Shapes */
+  --border-radius-small: 3px;
+  --border-radius-medium: 5px;
+  --border-radius-large: 8px;
+
+  /* Spacing */
+  --spacing-small: 1rem;
+  --spacing-medium: 2rem;
+}
