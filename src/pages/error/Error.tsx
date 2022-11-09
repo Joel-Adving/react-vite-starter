@@ -1,14 +1,6 @@
 import { useRouteError } from 'react-router-dom';
 import styles from './error.module.css';
-
-type Data = Record<string, unknown>;
-
-type ErrorResponse = {
-  status: number | undefined | null;
-  statusText: string | undefined | null;
-  message: string | undefined | null;
-  data: Data;
-};
+import { ErrorResponse } from './types';
 
 export default function Error() {
   const error = useRouteError() as ErrorResponse;
