@@ -1,7 +1,7 @@
-import Card from '@/components/common/card';
-import styles from './app.module.css';
+import Card from '@/components/card';
+import styles from './home.module.css';
 
-export default function App() {
+export default function Home() {
   return (
     <div className={styles['container']}>
       <Card>

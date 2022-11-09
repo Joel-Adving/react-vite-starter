@@ -1,0 +1,16 @@
+.container {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium);
+  text-align: center;
+}
+
+.message {
+  font-style: italic;
+}

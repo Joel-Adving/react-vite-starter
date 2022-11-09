@@ -1,11 +1,11 @@
 import { describe, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
 
-import App from './App';
+import Home from './Home';
 
-describe('App', () => {
-  it('Renders main app component', () => {
-    render(<App />);
+describe('Home', () => {
+  it('Renders home page', () => {
+    render(<Home />);
 
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent("Joel's react template");
   });
