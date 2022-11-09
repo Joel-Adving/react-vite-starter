@@ -8,15 +8,21 @@ Vite
 
 Typescript
 
-PostCSS
-
 React Query
 
-Husky + Eslint + Prettier + lint-staged
+PostCSS
+
+Eslint 
+
+Prettier 
+
+Husky
+
+lint-staged
 
 #
 
-Pre configured Api-layer with axios
+Configured Api-Layer with axios
 
 ## Installation
 
