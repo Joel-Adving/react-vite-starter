@@ -1,6 +1,6 @@
 ## React template
 
-## Stack
+### Stack
 
 vite
 
@@ -11,5 +11,7 @@ postcss
 react-query
 
 react-router-dom v6 
+
+
 
 
