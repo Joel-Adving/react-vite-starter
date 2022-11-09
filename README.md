@@ -22,7 +22,7 @@ lint-staged
 
 #
 
-Configured Api-Layer with axios
+Pre configured API Layer with axios
 
 ## Installation
 
