@@ -1,17 +1,49 @@
-## React template
+# React Vite Typescript Template/Boilerplate/Starter
 
 ### Stack
 
-vite
+React
 
-typescript 
+Vite
 
-postcss
+Typescript
 
-react-query
+PostCSS
 
-react-router-dom v6 
+React Query
 
+Husky + Eslint + Prettier + lint-staged
 
+#
 
+Pre configured Api-layer with axios
 
+## Installation
+
+```bash
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Preview
+
+```bash
+npm run preview
+```
+
+## Run Tests
+
+```bash
+npm test
+```
